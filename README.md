@@ -14,3 +14,9 @@ PORT **3000**
 ## Local Machine
 
 1. Run `yarn start` to start the application
+
+## Lint and format code:
+
+1. Run `yarn lint` to found what is wrong in code
+
+2. Run `yarn format` to format all the code
