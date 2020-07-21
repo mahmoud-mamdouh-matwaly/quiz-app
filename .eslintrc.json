@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "airbnb/base"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "import/prefer-default-export": 0,
+    "import/no-unresolved": ["off"],
+    "@typescript-eslint/no-explicit-any": ["off"],
+    "import/extensions": ["off"],
+    "@typescript-eslint/explicit-module-boundary-types": ["off"],
+    "object-curly-newline": "off",
+    "arrow-body-style": 0,
+    "no-shadow": "off",
+    "camelcase": "off"
+  }
+}
